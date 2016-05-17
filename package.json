@@ -1,0 +1,31 @@
+{
+  "name": "pmtk",
+  "version": "0.1.0",
+  "description": "Send pmtk commands to a serial gps device.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/psiphi75/pmtk"
+  },
+  "keywords": [
+    "pmtk",
+    "gps",
+    "nmea"
+  ],
+  "author": "Simon M. Werner",
+  "license": "APSL-2.0",
+  "bugs": {
+    "url": "https://github.com/psiphi75/pmtk/issues"
+  },
+  "homepage": "https://github.com/psiphi75/pmtk#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.5",
+    "serialport": "^3.1.2"
+  },
+  "devDependencies": {
+    "tape": "^4.5.1"
+  }
+}
