@@ -50,7 +50,7 @@ function autoDetectBaudrate(self, callback) {
         },
         newline: pmtkCmds.newline
     };
-    detector.start(this.device, sample, function(err, baudrate) {
+    detector.start(self.device, sample, function(err, baudrate) {
         if (err) {
             callback(err);
         } else {

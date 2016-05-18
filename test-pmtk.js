@@ -23,7 +23,7 @@
 
 'use strict';
 
-var PMTK = require('./pmtk');
+var PMTK = require('./index');
 var pmtk = new PMTK('/dev/ttyO1', 'detect', function (err) {
     if (err) {
         console.log('There was an error: ', err);
